@@ -1,0 +1,11 @@
+'''
+#wap to print the inverted pyramid
+* * * * *
+* * * *
+* * *
+* *
+*
+'''
+n=int(input("Enter number of rows:"))
+for i in range(n):
+    print("* "*(n-i))
